@@ -1,0 +1,6 @@
+- name: get os info
+  debug:
+          msg:
+          - "ansible_distribution {{ hostvars[inventory_hostname].ansible_distribution }}"
+          - "major version {{ hostvars[inventory_hostname].ansible_distribution_major_version }}"
+          - "version {{ hostvars[inventory_hostname].ansible_distribution_version }}"

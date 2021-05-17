@@ -1,0 +1,4 @@
+- name: create file
+  file:
+    path: "/etc/ansible/roles/roleone"
+    state: touch

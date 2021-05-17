@@ -1,0 +1,8 @@
+---
+- hosts: groupfour
+  remote_user: root
+  become: yes
+
+  roles:
+     - roleone
+     - roletwo
